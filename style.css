@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url(img/fondo2.jpg);
+    background-repeat: repeat;
+    
+
+    font-size: 15px;
+    font-family: 'Roboto',Arial;
+    line-height:1.6;
+    text-align:justify;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.contenedor
+{
+background-color: white;
+width: 960px;
+margin:0 auto;
+border: 5px solid #fbff02;
+margin-top:20px;
+padding: 35px;
+box-shadow: 5px 5px 30px black;
+position: relative;
+
+
+
+}
+.contenedor p{
+
+    margin-bottom:20px;
+
+}
+
+.contenedor h1{
+
+    text-align:center;
+
+}
+
+.subtitulo{
+
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.certificados-oficiales{
+text-align: center;
+font-weight: bold;
+font-style: italic;
+font-size: 16px;
+}
+
+ul{
+
+    margin-left: 35px;
+    list-style-type: circle;
+
+}
+
+h2{
+
+    margin-bottom: 20px;
+}
+
+
+
+.video{
+
+   display: flex;
+     justify-content: center;
+     margin:20px 0;
+}
+
+.tachado
+{
+    text-decoration: line-through;
+}
+.card-inscripcion
+{
+    width: 700px;
+    background-color: rgb(208, 216, 250);
+    border:1px solid black;
+    margin:0 auto;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.card-inscripcion h2
+{
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.card-inscripcion h3
+{
+    margin-top:-20px;
+    margin-bottom:10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-inscripcion ul{
+
+    margin-left: 35px;
+    list-style-type: circle;
+
+}
+
+
+.link-formulario
+{
+
+text-align: center;
+font-size: 24px;
+font-weight:bold;
+
+}
+.link-formulario a
+{
+
+text-align: center;
+color:rgb(10, 9, 0);
+text-decoration:underline;
+}
+
+.texto-formulario
+{
+margin-top:10px;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+
+}
+
+a:hover{
+    background-color: darkgrey;
+  }
+
+  /* common */
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ribbon::before,
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #2980b9;
+  }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #953dac;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 13px 'Roboto', sans-serif;
+    font-weight:bold;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* top left*/
+  .ribbon-top-left {
+    top: -10px;
+    left: -10px;
+  }
+  .ribbon-top-left::before,
+  .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-top-left::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+  }
+  
+  /* top right*/
+  .ribbon-top-right {
+    top: -10px;
+    right: -10px;
+  }
+  .ribbon-top-right::before,
+  .ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-top-right::before {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-top-right::after {
+    bottom: 0;
+    right: 0;
+  }
+  .ribbon-top-right span {
+    left: -25px;
+    top: 30px;
+    transform: rotate(45deg);
+  }
+  
+  /* bottom left*/
+  .ribbon-bottom-left {
+    bottom: -10px;
+    left: -10px;
+  }
+  .ribbon-bottom-left::before,
+  .ribbon-bottom-left::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-bottom-left::before {
+    bottom: 0;
+    right: 0;
+  }
+  .ribbon-bottom-left::after {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-bottom-left span {
+    right: -25px;
+    bottom: 30px;
+    transform: rotate(225deg);
+  }
+  
+  /* bottom right*/
+  .ribbon-bottom-right {
+    bottom: -10px;
+    right: -10px;
+  }
+  .ribbon-bottom-right::before,
+  .ribbon-bottom-right::after {
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-bottom-right::before {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-bottom-right::after {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-bottom-right span {
+    left: -25px;
+    bottom: 30px;
+    transform: rotate(-225deg);
+  }
